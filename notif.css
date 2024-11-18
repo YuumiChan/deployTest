@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FB6090;
+}
+
+.search-bar h1 {
+    padding-left: 1rem;
+    margin-right: auto;
+    background-color: #FB6090;
+}
+
+.search-bar img {
+    width: 12rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+
+/* Notifications title */
+.notifications-title {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+/* Notification List */
+@media (max-height: 768px) {
+    .notification-list {
+        /* margin-top: 111111rem; */
+        /* margin: 20rem 0 0 0; */
+        /* padding: 99rem 1px 1rem 1rem; */
+        background-color: #333;
+    }
+}
+@media (max-height: 1080px) {
+    .notification-list {
+        margin-top: 2rem;
+    }
+    .order-list {
+        margin-bottom: 5rem;
+        padding-bottom: 4rem;
+}
+
+.notification-list {
+    padding: 3rem 1px 1rem 1rem;
+}
+.notification-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+.notification-item img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 10px;
+}
+.notification-content {
+    flex-grow: 1;
+}
+.notification-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+.notification-text {
+    font-size: 12px;
+    color: #666;
+}
+.notification-arrow {
+    font-size: 14px;
+    color: #333;
+    align-self: center;
+}
+/* Order Updates */
+.order-updates {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+.order-list {
+    padding-top: 2rem;
+}
+/* Order Item */
+.order-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.order-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.order-content {
+    flex-grow: 1;
+}
+.order-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+.order-text {
+    font-size: 12px;
+    color: #666;
+}

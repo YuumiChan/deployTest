@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Layout</title>
+    <link rel="stylesheet" href="home1.css">
+    <style>
+        /* styles.css */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        
+
+        /* Profile Section */
+        .profile-section {
+            background-color: #f28a8a;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .start-selling {
+            background-color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .user-info {
+            text-align: center;
+        }
+
+        .user-icon {
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .username {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .followers {
+            font-size: 12px;
+            color: #555;
+        }
+
+        .settings-icons img {
+            width: 20px;
+            margin-left: 10px;
+        }
+
+        /* Notification Bar */
+        .notification-bar {
+            background-color: #f0e0e0;
+            padding: 10px;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        /* Section Title */
+        .section-title {
+            padding: 10px;
+            font-weight: bold;
+            background-color: #ffffff;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* Purchases Section */
+        .purchases-section, .activities-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #ffffff;
+        }
+
+        .purchase-item, .activity-item {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .purchase-item img, .activity-item img {
+            width: 40px;
+            margin-bottom: 5px;
+        }
+
+        /* Support Section */
+        .support-section {
+            padding: 10px;
+            background-color: #ffffff;
+            font-size: 12px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .support-section p {
+            padding: 5px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <!-- Top Bar with time and icons -->
+    <div class="top-bar">
+        <span class="time">10:30</span>
+        <div class="top-icons">
+            <img src="wifi.png" alt="Wi-Fi">
+            <img src="battery.png" alt="Battery">
+        </div>
+    </div>
+
+    <!-- User Profile Section -->
+    <div class="profile-section">
+        <button class="start-selling">Start Selling</button>
+        <div class="user-info">
+            <img src="user-icon.png" alt="User" class="user-icon">
+            <p class="username">USER NAME</p>
+            <p class="followers">0 Follower  ·  10 Following</p>
+        </div>
+        <div class="settings-icons">
+            <img src="settings.png" alt="Settings">
+            <img src="cart.png" alt="Cart">
+            <img src="message.png" alt="Messages">
+        </div>
+    </div>
+
+    <!-- Notification Bar -->
+    <div class="notification-bar">
+        <p>Verify your email to help us confirm your identity, protect your account, and receive order updates.</p>
+    </div>
+
+    <!-- My Purchases Section -->
+    <div class="section-title">My Purchases</div>
+    <div class="purchases-section">
+        <div class="purchase-item">
+            <img src="topay.png" alt="To Pay">
+            <p>To Pay</p>
+        </div>
+        <div class="purchase-item">
+            <img src="toship.png" alt="To Ship">
+            <p>To Ship</p>
+        </div>
+        <div class="purchase-item">
+            <img src="toreceive.png" alt="To Receive">
+            <p>To Receive</p>
+        </div>
+        <div class="purchase-item">
+            <img src="torate.png" alt="To Rate">
+            <p>To Rate</p>
+        </div>
+    </div>
+
+    <!-- More Activities Section -->
+    <div class="section-title">More Activities</div>
+    <div class="activities-section">
+        <div class="activity-item">
+            <img src="likes.png" alt="My Likes">
+            <p>My Likes</p>
+        </div>
+        <div class="activity-item">
+            <img src="buyagain.png" alt="Buy Again">
+            <p>Buy Again</p>
+        </div>
+        <div class="activity-item">
+            <img src="recentlyviewed.png" alt="Recently Viewed">
+            <p>Recently Viewed</p>
+        </div>
+        <div class="activity-item">
+            <img src="prizes.png" alt="Beauty Essentials Prizes">
+            <p>Beauty Essentials Prizes</p>
+        </div>
+    </div>
+
+    <!-- Support Section -->
+    <div class="section-title">Support</div>
+    <div class="support-section">
+        <p>Help Centre</p>
+        <p>Chat with Beauty Essentials Cosmetics</p>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <div>
+            <a href="home1.html"><img src="imgs/home.png" alt="Home"></a>
+            <span>Home</span>
+        </div>
+        <div>
+            <a href="categories.html">
+            <img src="imgs/categories.png" alt="Categories"></a>
+            <span>Categories</span>
+        </div>
+        <div>
+            <a href="mall.html">
+            <img src="imgs/Bbag.png" alt="Mall"></a>
+            <span>Mall</span>
+        </div>
+        <div>
+            <a href="notif.html">
+            <img src="imgs/bell.png" alt="Notification"></a>
+            <span>Notification</span>
+        </div>
+        <div>
+            <a href="account.html">
+            <img src="imgs/user.png" alt="Account"></a>
+            <span>Account</span>
+        </div>
+    </div>
+</body>
+</html>

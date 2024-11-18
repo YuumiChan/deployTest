@@ -1,0 +1,118 @@
+
+.top{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    align-items: center;
+}
+.top_right{
+    padding-left: 1;
+}
+img{
+    max-width: 25px;
+    align-content: center;
+}
+.selections{
+    display: flex;
+    /* justify-content: ; */
+    padding: 10px 0;
+    background-color:chocolate;
+}
+.search{
+    background-image: url('imgs/search.png');
+    background-size: 10px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding-left: 40px;
+    /* display: flex; */
+    flex:1;
+    background-color: aquamarine;
+}
+.CM{
+    /* display: flex; */
+    align-content: right;
+}
+.CM img{
+    padding-left: 2px;
+    align-items: center;
+}
+.VML{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+}
+.VML img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    background-color: aquamarine;
+}
+.VML p{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.live{
+    display: flex;
+}
+
+.shop{
+    display: flex;
+    flex-direction:row;
+    padding-bottom: 15%;
+}
+.shop video{
+    
+}
+
+.bot{
+    position: fixed;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    background-color: aquamarine;
+    /* margin: 0px; */
+    /* z-index: 1000; */
+    /* top: 10px;
+    left: 10px; */
+    bottom: 0;
+    left: 0;
+    height: 150px;
+    padding: 10px 0;
+    height: 100px;
+    width: 100%;
+}
+.bot div{
+    margin: 0px;
+    padding: 0px 0;
+    /* display: flex; */
+    text-align: center;
+    background-color: beige;
+    height: 10px;
+
+}
+.bot div p{
+    font-size: 14px;
+}
+.bot div img{
+    min-width: 50px;
+    max-width: 60px;
+    
+}
+video{
+    min-width: 20%;
+    max-width: 40%;
+    object-fit: cover;
+    margin: 20px;
+    display:inline-block;
+
+}
+body{
+    background-color: gray;
+}
