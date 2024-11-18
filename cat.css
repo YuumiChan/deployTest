@@ -6,11 +6,11 @@
 body {
     padding-top: 3.5rem;
     font-family: Arial, sans-serif;
-    background-color: #F58B8B;
+    background-color: #f9cccc8d;
 }
 
 .top-nav {
-    padding-top: 1.5%;
+    padding-top: 4%;
 }
 /* Category title */
 .category-title {
@@ -19,7 +19,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 1rem;
-    background-color: #F58B8B;
+    background-color: #f9cccc8d;
     color: black;
 }
 /* Categories Grid */
@@ -37,7 +37,12 @@ body {
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
     height: 10px 0;
-    overflow-y: auto;
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar Firefox */
+}
+.category-row::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar Chrome, Safari and Opera */
 }
 .category-label {
     width: 20%;
@@ -48,11 +53,10 @@ body {
 }
 .category-products {
     width: 100%;
-    height: auto;
+    /* height: 20rem; */
     display: flex;
     gap: 10px;
-    overflow-x: none;
-    overflow-y: auto;
+    /* overflow-x: auto; */
     -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
     scrollbar-width: none;  /* Hide scrollbar Firefox */
 }
@@ -62,7 +66,6 @@ body {
 
 .category-grid::-webkit-scrollbar {
     display: none;
-
 }
 .product {
     width: 10rem;

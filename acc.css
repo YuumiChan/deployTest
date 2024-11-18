@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0%;
+    background-color: #f9cccc8d;
+}
+.container{
+    overflow-y: auto;
+}
+
+/* Profile Section */
+.profile-section {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FB6090;
+}
+.profile-top {
+    display: inline-block;
+    align-items: space-between;
+}
+.start-selling {
+    background-color: #f9cccc8d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.user-info {
+    text-align: center;
+}
+
+.user-icon {
+    margin: 1rem 0 0.5rem 0;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.followers {
+    font-size: 12px;
+    color: #555;
+}
+
+.settings-icons img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* Notification Bar */
+.notification-bar {
+    background-color: #f9cccc8d;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: red;
+}
+
+/* Section Title */
+.section-title {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f9cccc8d;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Purchases Section */
+.purchases-section, .activities-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #f9cccc8d;
+}
+
+.purchase-item, .activity-item {
+    text-align: center;
+    font-size: 12px;
+}
+
+.activity-item p {
+    word-break: break-all;
+}
+
+.purchase-item img, .activity-item img {
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+/* Support Section */
+.support-section {
+    padding: 10px;
+    background-color: #f9cccc8d;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7rem;
+}
+
+.support-section p {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.help{
+    display: flex;
+}
+.help img{
+    height: 1.7rem;
+    width: 1.7rem;
+    margin-right: 10px;
+    margin-bottom: 0.4rem;
+    margin-top: 0.5rem;
+}
+.help p {
+    padding-top: 0.7rem;
+    text-align: center;
+}
+.call{
+    display: flex;
+}
+.call p {
+    padding-top: 0.7rem;
+    text-align: center;
+}
+.call img{
+    height: 1.7rem;
+    width: 1.7rem;
+    margin-right: 10px;
+    margin-bottom: 0.4rem;
+    margin-top: 0.5rem;
+}

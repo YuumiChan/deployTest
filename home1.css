@@ -7,7 +7,9 @@
 }
 body {
     font-family: Arial, sans-serif;
-    
+    padding-bottom: 13%;
+    padding-top: 5%;
+    background-color: #f9cccc8d;
 }
 
 h1 {
@@ -21,8 +23,8 @@ h1 {
 /* Search bar */
 .search-bar {
     background-color: #FB6090;
-    padding: 10px;
-    padding-left: 3%;
+    padding: 3% 0 1rem 3%;
+    /* padding-left: 3%; */
     display: flex;
     align-items: center;
     gap: 10px;
@@ -37,7 +39,7 @@ h1 {
     padding: 1.5% 1.5% 1.5% 5%;
     border-radius: 30px;
     border: none;
-    background-color: #F7D6D0; /* Set your desired background color here */
+    background-color: #F7D6D0; 
 }
 .search-icon{
     min-width: 2%;
@@ -53,10 +55,12 @@ h1 {
 
 /* Icons section */
 .icon-section {
+    /* padding-top: 100rem; */
+    margin-top: 0.2rem;
     display: flex;
     justify-content: space-evenly;
-    padding-top: calc(4% + 5vh);
-    padding-bottom: 1%;
+    padding-top: calc(1% + 4vh);
+    padding-bottom: 3%;
     background-color: #FB6090;
 }
 .icon-section div {
@@ -78,7 +82,7 @@ h1 {
     overflow-x: auto;
     white-space: nowrap;
     gap:1%;
-    background-color: #F9CCD3;
+    background-color: #f9cccc8d;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
@@ -105,7 +109,6 @@ video {
     video {
         max-width: 70%;
         min-width: 20%;
-        background-color: aqua;
     }
 }
 
@@ -113,7 +116,6 @@ video {
     video {
         max-width: 100%;
         min-width: 40%;
-        background-color: brown;
     }
 }
 .bottom-nav img {
@@ -139,7 +141,7 @@ video {
     overflow-x: auto;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    background-color: #F9CCD3;
+    background-color: #f9cccc8d;
 }
 /* Bottom navigation */
 .bottom-nav {
@@ -154,7 +156,7 @@ video {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border-radius: 20px 50px 0 0;
+    border-radius: 50px 50px 0px 0px;
 }
 .bottom-nav div{
     text-align: center;
